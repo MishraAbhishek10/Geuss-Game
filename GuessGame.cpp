@@ -41,7 +41,8 @@ int main() {
 
         if (userGuess > obj.getComputerChoice()) {
             cout << "Hint: Your choice is greater than the computer's choice." << endl;
-        } else if (userGuess < obj.getComputerChoice()) {
+        } 
+        else if (userGuess < obj.getComputerChoice()) {
             cout << "Hint: Your choice is lesser than the computer's choice." << endl;
         }
 
@@ -51,4 +52,5 @@ int main() {
 
     return 0;
 }
+
 
